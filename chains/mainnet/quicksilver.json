@@ -1,8 +1,8 @@
 {
   "chain_name": "quicksilver",
   "coingecko": "",
-  "api": ["https://quicksilver-api.polkachu.com", "https://api-quicksilver.nodeist.net", "https://api.quicksilver.stake-take.com"],
-  "rpc": ["https://quicksilver-rpc.polkachu.com", "https://rpc-quicksilver.nodeist.net", "https://rpc.quicksilver.stake-take.com"],
+  "api": ["https://quicksilver-mainnet-api.itrocket.net"],
+  "rpc": ["https://quicksilver-mainnet-rpc.itrocket.net"],
   "sdk_version": "0.46.7",
   "coin_type": "118",
   "min_tx_fee": "8000",
@@ -13,7 +13,7 @@
       "base": "uqck",
       "symbol": "QCK",
       "exponent": "6",
-      "coingecko_id": "quicksilver",
+      "coingecko_id": "",
       "logo": "/logos/quicksilver.png"
     }
   ]

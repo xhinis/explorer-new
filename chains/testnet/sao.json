@@ -1,0 +1,16 @@
+{
+    "chain_name": "sao",
+    "api": ["https://sao-testnet-api.itrocket.net"],
+    "rpc": ["https://sao-testnet-rpc.itrocket.net"],
+    "coin_type": 118,
+    "min_tx_fee": 200,
+    "sdk_version": "0.46.6",
+    "addr_prefix": "sao",
+    "logo": "/logos/sao.jpg",
+    "assets": [{
+        "base": "sao",
+        "symbol": "SAO",
+        "exponent": 6,
+        "logo": "/logos/sao.jpg"
+    }]
+}

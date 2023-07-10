@@ -1,17 +1,17 @@
 {
   "chain_name": "nois",
-  "api": ["https://nois-api.polkachu.com","https://api.nois.nodestake.top"],
-  "rpc": ["https://nois-rpc.polkachu.com","https://rpc.nois.nodestake.top"],
+  "api": ["https://nois-mainnet-api.itrocket.net"],
+  "rpc": ["https://nois-mainnet-rpc.itrocket.net"],
   "sdk_version": "0.45.14",
   "addr_prefix": "nois",
-  "min_tx_fee": "5000",
-  "logo": "/logos/nois.png",
+  "min_tx_fee": "200",
+  "logo": "/logos/nois.svg",
   "assets": [
     {
       "symbol": "NOIS",
       "base": "unois",
       "exponent": 6,
-      "logo": "/logos/nois.png"
+      "logo": "/logos/nois.svg"
     }
   ]
 }

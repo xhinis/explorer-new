@@ -1,0 +1,16 @@
+{
+    "chain_name": "dymension",
+    "api": ["https://dymension-testnet-api.itrocket.net"],
+    "rpc": ["https://dymension-testnet-rpc.itrocket.net"],
+    "coin_type": 118,
+    "min_tx_fee": 200,
+    "sdk_version": "0.45.10",
+    "addr_prefix": "dym",
+    "logo": "/logos/dymension.png",
+    "assets": [{
+        "base": "udym",
+        "symbol": "DYM",
+        "exponent": 6,
+        "logo": "/logos/dymension.png"
+    }]
+}
