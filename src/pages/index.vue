@@ -72,6 +72,6 @@ const chainStore = useBlockchain();
 
 <style scoped>
 .logo path {
-  fill: #171d30;
+  fill: #151a30;
 }
 </style>
