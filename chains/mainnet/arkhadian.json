@@ -1,16 +1,18 @@
 {
-    "chain_name": "arkhadian",
-    "api": ["https://arkhadian-mainnet-api.itrocket.net"],
-    "rpc": ["https://arkhadian-mainnet.itrocket.net"],
-    "coin_type": 118,
-    "min_tx_fee": 200,
-    "sdk_version": "0.44.5",
-    "addr_prefix": "arkh",
-    "logo": "/logos/arkhadian.png",
-    "assets": [{
-        "base": "arkh",
-        "symbol": "RKH",
-        "exponent": 6,
-        "logo": "/logos/arkhadian.png"
-    }]
+  "chain_name": "arkhadian",
+  "api": ["https://arkhadian-mainnet-api.itrocket.net"],
+  "rpc": ["https://arkhadian-mainnet.itrocket.net"],
+  "coin_type": 118,
+  "min_tx_fee": 200,
+  "sdk_version": "0.44.5",
+  "addr_prefix": "arkh",
+  "logo": "/logos/arkhadian.jpg",
+  "assets": [
+    {
+      "base": "arkh",
+      "symbol": "RKH",
+      "exponent": 6,
+      "logo": "/logos/arkhadian.jpg"
+    }
+  ]
 }
