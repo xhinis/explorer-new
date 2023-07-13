@@ -6,13 +6,13 @@
   "min_tx_fee": 200,
   "sdk_version": "0.44.5",
   "addr_prefix": "cc",
-  "logo": "/logos/cardchain.svg",
+  "logo": "/logos/cardchain.png",
   "assets": [
     {
       "base": "ubpf",
       "symbol": "BPF",
       "exponent": 6,
-      "logo": "/logos/cardchain.svg"
+      "logo": "/logos/cardchain.png"
     }
   ]
 }
