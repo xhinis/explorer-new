@@ -1,8 +1,8 @@
 {
   "chain_name": "uptick",
   "coingecko": "",
-  "api": ["https://uptick-mainnet-api.itrocket.net/"],
-  "rpc": ["https://uptick-mainnet-rpc.itrocket.net/"],
+  "api": ["https://uptick-mainnet-api.itrocket.net"],
+  "rpc": ["https://uptick-mainnet-rpc.itrocket.net"],
   "snapshot_provider": "",
   "sdk_version": "0.46.0",
   "coin_type": "118",
