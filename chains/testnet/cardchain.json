@@ -1,5 +1,5 @@
 {
-  "chain_name": "cardchain", 
+  "chain_name": "cardchain",
   "api": ["https://cardchain-testnet-api.itrocket.net"],
   "rpc": ["https://cardchain-testnet-rpc.itrocket.net"],
   "coin_type": 118,
