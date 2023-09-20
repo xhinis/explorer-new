@@ -1,7 +1,7 @@
 {
     "chain_name": "humans",
-    "api":["https://quicksilver-mainnet-api.itrocket.net"],
-    "rpc":["https://quicksilver-mainnet-rpc.itrocket.net"],
+    "api":["https://humans-mainnet-api.itrocket.net"],
+    "rpc":["https://humans-mainnet-rpc.itrocket.net"],
     "snapshot_provider": "",
     "sdk_version": "0.46.3",
     "coin_type": 60,
