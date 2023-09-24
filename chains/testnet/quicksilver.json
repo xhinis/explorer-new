@@ -2,7 +2,7 @@
     "chain_name": "quicksilver",
     "coingecko": "",
     "api": ["https://quicksilver-testnet-api.itrocket.net"],
-    "rpc": ["https://quicksilver-tstnet-rpc.itrocket.net"],
+    "rpc": ["https://quicksilver-testnet-rpc.itrocket.net"],
     "sdk_version": "0.46.1",
     "coin_type": "118",
     "min_tx_fee": "8000",
