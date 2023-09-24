@@ -1,19 +1,19 @@
 {
-    "chain_name": "mars",
+    "chain_name": "noria",
     "coingecko": "",
-    "api": ["https://mars-testnet-api.itrocket.net"],
-    "rpc": ["https://mars-testnet-rpc.itrocket.net"],
+    "api": ["https://noria-testnet-api.itrocket.net"],
+    "rpc": ["https://noria-testnet-rpc.itrocket.net"],
     "snapshot_provider": "",
-    "sdk_version": "0.46.7",
+    "sdk_version": "0.47.3",
     "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "mars",
-    "logo": "/logos/mars.jpg",
+    "min_tx_fee": "0",
+    "addr_prefix": "noria",
+    "logo": "/logos/noria.jpg",
     "assets": [{
-        "base": "umars",
-        "symbol": "MARS",
+        "base": "unoria",
+        "symbol": "NORIA",
         "exponent": "6",
         "coingecko_id": "",
-        "logo": "/logos/mars.jpg"
+        "logo": "/logos/noria.jpg"
     }]
 }
