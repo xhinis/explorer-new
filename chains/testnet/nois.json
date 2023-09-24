@@ -8,7 +8,7 @@
   ],
   "sdk_version": "0.45.5",
   "addr_prefix": "nois",
-  "min_tx_fee": "200",
+  "min_tx_fee": "5000",
   "logo": "/logos/nois.svg",
   "assets": [
     {
