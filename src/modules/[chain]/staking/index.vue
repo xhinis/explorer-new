@@ -196,7 +196,7 @@ loadAvatars();
             </span>
             <span>
                 <div class="font-bold">{{ format.percent(mintStore.inflation) }}</div>
-                <div class="text-xs">{{ $t('staking.infalation') }}</div>
+                <div class="text-xs">{{ $t('staking.inflation') }}</div>
             </span>
         </div>
         <div class="flex">
@@ -404,7 +404,7 @@ loadAvatars();
                                 {{ $t('staking.jailed') }}
                                 </div>
                                 <label
-                                    v-else-if="rank !== 'error'"
+                                    v-else
                                     for="delegate"
                                     class="btn btn-xs btn-primary rounded-sm capitalize"
                                     @click="

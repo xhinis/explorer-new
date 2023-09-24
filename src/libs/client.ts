@@ -218,10 +218,24 @@ export class CosmosRestClient extends BaseRestClient<RequestRegistry> {
       validator_addr,
     });
   }
-  async getStakingValidatorsDelegations(validator_addr: string) {
-    return this.request(this.registry.staking_validators_delegations, {
-      validator_addr,
-    });
+  async getStakingValidatorsDelegations(
+    validator_addr: string,
+    page?: PageRequest
+  ) {
+    if (!page) {
+      page = new PageRequest();
+      // page.reverse = true
+      page.count_total = true;
+      page.offset = 0;
+    }
+    const query = `?${page.toQueryString()}`;
+    return this.request(
+      this.registry.staking_validators_delegations,
+      {
+        validator_addr,
+      },
+      query
+    );
   }
   async getStakingValidatorsDelegationsDelegator(
     validator_addr: string,
@@ -277,6 +291,10 @@ export class CosmosRestClient extends BaseRestClient<RequestRegistry> {
   async getTxsBySender(sender: string, page?: PageRequest) {
     if (!page) page = new PageRequest();
     const query = `?order_by=ORDER_BY_DESC&events=message.sender='${sender}'`;
+    if (!page) page = new PageRequest();
+    const query = `?order_by=2&events=message.sender='${sender}'&pagination.limit=${
+      page.limit
+    }&pagination.offset=${page.offset || 0}`;
     return this.request(this.registry.tx_txs, {}, query);
   }
   // query ibc sending msgs
@@ -355,5 +373,14 @@ export class CosmosRestClient extends BaseRestClient<RequestRegistry> {
       channel_id,
       port_id,
     });
+  }
+  async getInterchainSecurityValidatorRotatedKey(
+    chain_id: string,
+    provider_address: string
+  ) {
+    return this.request(
+      this.registry.interchain_security_ccv_provider_validator_consumer_addr,
+      { chain_id, provider_address }
+    );
   }
 }

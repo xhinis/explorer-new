@@ -1,6 +1,6 @@
 # Directory Layout
 
-**We accept all blockchains which have 10+ independent validators.**
+** if you want to list your blockhain on ping.pub, please submit your configure on https://github.com/ping-pub/ping.pub.git **
 
 - Submit configs for mainnet, go to https://github.com/ping-pub/explorer/tree/master/src/chains/mainnet
 
