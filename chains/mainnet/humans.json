@@ -1,4 +1,4 @@
-{
+{ 
     "chain_name": "humans",
     "api":["https://humans-mainnet-api.itrocket.net"],
     "rpc":["https://humans-mainnet-rpc.itrocket.net"],
