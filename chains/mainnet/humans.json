@@ -1,4 +1,4 @@
-{ 
+{
     "chain_name": "humans",
     "api":["https://humans-mainnet-api.itrocket.net"],
     "rpc":["https://humans-mainnet-rpc.itrocket.net"],
@@ -14,6 +14,6 @@
         "symbol": "HEART",
         "exponent": 18,
         "coingecko_id": "humans-ai",
-        "logo": "/logos/humans.jpg"
+        "logo": "/logos/humans.j"
     }]
 }
