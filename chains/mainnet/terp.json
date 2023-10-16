@@ -8,14 +8,14 @@
   "coin_type": "118",
   "min_tx_fee": "500",
   "addr_prefix": "terp",
-  "logo": "/logos/terp-network.jpg",
+  "logo": "/logos/terp.jpg",
   "assets": [
     {
       "base": "uterp",
       "symbol": "TERP",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "/logos/terp-network.jpg"
+      "logo": "/logos/terp.jpg"
     }
   ]
 }
