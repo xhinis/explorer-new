@@ -1,5 +1,5 @@
 {
-    "chain_name": "dora",
+    "chain_name": "dorav",
     "coingecko": "",
     "api": ["https://dora-testnet-api.itrocket.net"], 
     "rpc": ["https://dora-testnet-rpc.itrocket.net"],
