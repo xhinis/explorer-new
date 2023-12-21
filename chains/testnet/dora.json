@@ -1,0 +1,16 @@
+{
+    "chain_name": "dora",
+    "api": ["https://dora-testnet-api.itrocket.net"],
+    "rpc": ["https://dora-testnet-rpc.itrocket.net"],
+	"sdk_version": "v0.47.3",
+    "coin_type": 118,
+    "min_tx_fee": 200,
+    "addr_prefix": "dora",
+    "logo": "/logos/dora.jpg",
+    "assets": [{
+        "base": "peaka",
+        "symbol": "DORA",
+        "exponent": 18,
+        "logo": "/logos/dora.jpg"
+    }]
+}
