@@ -10,7 +10,7 @@
     "addr_prefix": "dora",
     "logo": "/logos/dora.jpg",
     "assets": [{
-        "base": "udora",
+        "base": "peaka",
         "symbol": "DORA",
         "exponent": "18", 
         "coingecko_id": "",
