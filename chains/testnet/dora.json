@@ -8,7 +8,7 @@
     "addr_prefix": "dora",
     "logo": "/logos/dora.jpg",
     "assets": [{
-        "base": "peaka",
+        "base": "udora",
         "symbol": "DORA",
         "exponent": 18,
         "logo": "/logos/dora.jpg"
