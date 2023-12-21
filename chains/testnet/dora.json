@@ -1,7 +1,7 @@
 {
     "chain_name": "dora",
-    "api": ["https://t-dora.api.utsa.tech/"],
-    "rpc": ["https://t-dora.rpc.utsa.tech/"],
+    "api": ["https://dora-testnet-api.itrocket.net"],
+    "rpc": ["https://dora-testnet-rpc.itrocket.net"],
 	"sdk_version": "v0.47.3",
     "coin_type": 118,
     "min_tx_fee": 200,
